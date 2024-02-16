@@ -1,0 +1,83 @@
+.car {
+    position: relative;
+    width: 600px;
+    height: 250px;
+    background-color:red; 
+    border-radius: 20px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 4 0px;
+    margin: 20px;
+    animation: drive 2s linear infinite;
+  }
+  @keyframes drive {
+    0% {
+      transform: translateX(-120%);
+    }
+    100% {
+      transform: translateX(120%);
+    }
+    0% {
+        transform: translateX(0%);
+      }
+  }
+  
+  .car-body {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 550px;
+    height: 160px;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-top-right-radius: 150px;
+    
+  }
+  .car-window2 {
+    position: absolute;
+    top: 55px;
+    left: 70px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.761);
+  }
+  .car-window1 {
+    position: absolute;
+    top: 55px;
+    left: 220px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.761);
+  }
+  .car-window {
+    position: absolute;
+    top: 55px;
+    left: 380px;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.761);
+  }
+  
+  .car-wheel {
+    position: absolute;
+    top: 220px;
+    width: 70px;
+    height: 70px;
+    background-color:black;
+    border-radius: 50%;
+    margin-left: 40px;
+  } .car-wheel2 {
+    position: absolute;
+    top: 220px;
+    width: 70px;
+    height: 70px;
+    background-color: #000000c5;
+    border-radius: 50%;
+    margin-left: 450px;
+  }
+  
+  .car-wheel:nth-child(2) {
+    margin-left: 100px;
+  }
+
